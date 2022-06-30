@@ -1,0 +1,204 @@
+body {
+  background-color: #323232;
+  background-repeat: no-repeat;
+}
+
+.spoiler {
+    background: #1788cc;
+    border-radius: 5px;
+    color: transparent;
+}
+
+.spoiler:hover {
+    background: #1788cc;
+    color: inherit;
+}
+
+.prst {
+  text-align: center;
+  color: #fff;
+}
+.prst img {
+  border-radius: 50%;
+}
+
+.Raph {
+  color: #1788cc;
+}
+.ap h1{
+ text-align: center;
+ color: #1788cc;
+}
+.projet {
+  text-align: center;
+}
+.projet h1 {
+  color: #1788cc;
+} 
+
+p {
+  color: #fff;
+}
+
+a {
+  color: #1788cc;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.container{
+  color: #1788cc;
+  text-align: center;
+} 
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+} 
+.projet {
+  text-align: center;
+}
+ .projets {
+   align-self: center;
+  align-content: center;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #1788cc;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #fff;
+}
+.projets * {
+  align-self: center;
+  align-content: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.projets img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.projets figcaption {
+  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+  position: relative;
+}
+.projets figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #fff;
+}
+.projets figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.projets figcaption a:hover {
+  opacity: 1;
+}
+.projets .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.projets .info {
+  margin-right: 4%;
+  border-color: #1788cc;
+  color: #1788cc;
+}
+.projets h2 {
+  text-align: center;
+  color: #1788cc;
+  margin: 0 0 5px;
+  font-weight: 300;
+}
+.projets h2 span {
+  text-align: center;
+  color: #323232;
+  display: block;
+  font-size: 0.5em;
+}
+.projets p {
+  text-align: center;
+  Color: #1788cc;
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+.contact {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #1788cc transparent; 
+  text-align: center;
+  
+}
+.contact h1 {
+  text-align: center;
+  color: #1788cc;
+}
